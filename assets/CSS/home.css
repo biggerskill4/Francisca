@@ -1,0 +1,72 @@
+/* banner */
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner h1 {
+    display: none;
+  }
+  .banner .row {
+    width: 1600px;
+    height: 85vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner .row img {
+    width: 80%;
+    height: 85vh;
+    object-fit: contain;
+  }
+  /* section heading */
+  .heading{
+      margin-top: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .heading h2, p{
+    text-align: center;
+    width: 1000px;
+  }
+  /* categories */
+  .categories {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .categories .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1300px;
+  }
+  
+  .categories .card {
+    width: 310px;
+    padding: 20px;
+    background: var(--color-1);
+    margin: 10px;
+    border-radius: 20px;
+    height: 370px;
+    position: relative;
+    overflow: hidden;
+  }
+  .categories .card h3{
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+  .categories .card:nth-child(2){
+    background: var(--color-2);
+  }
+  .categories .card:nth-child(3){
+    background: var(--color-3);
+  }
+  .categories .card:nth-child(4){
+    background: var(--color-4);
+  }
